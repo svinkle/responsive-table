@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-no-important": true,
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true
+  }
+}

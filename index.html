@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Responsive Table</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#222222" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" sizes="192x192" href="icon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Raleway:400,700|Source+Code+Pro"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">
+          <span role="img" aria-hidden="true">🍱</span>
+          Responsive Table
+        </a>
+      </h1>
+    </header>
+    <main class="main" id="main" role="main">
+      <p>
+        <b>Responsive Table</b>
+        is a tasty JavaScript library which helps format data tables on small
+        screens! It does so by reordering items in the DOM while keeping HTML markup
+        valid and assistive technology friendly!
+      </p>
+      <h2>Flavours</h2>
+      <ul>
+        <li>
+          <a href="list.html">List</a>
+          – Generates a link list above the table using the row headers as the link text. Only the associated table row is visible while the others remain hidden!
+        </li>
+        <li>
+          <a href="stack.html">Stack</a>
+          – Displays each row of content atop one another, like a stack of blocks!
+        </li>
+        <li>
+          <a href="window.html">Window</a>
+          – The table remains as-is with a horizontal scroll available. A link to open the table in a new, full-width window appears at the desired breakpoint.
+        </li>
+      </ul>
+      <h2>Usage</h2>
+      <ol>
+        <li>
+          Include
+          <code>responsive-table.js</code>
+          at the bottom of your page
+        </li>
+        <li>
+          Create a new
+          <code>dataTable</code>
+          variable and assign it a
+          <code>new ResponsiveTable()</code>
+          instance
+        </li>
+        <li>
+          Pass
+          <code>ResponsiveTable()</code>
+          three paramaters:
+          <ul>
+            <li>
+              The unique
+              <code>IDREF</code>
+              of the table
+            </li>
+            <li>
+              The type of table:
+              <code>list</code>
+              ,
+              <code>stack</code>
+              , or
+              <code>window</code>
+            </li>
+            <li>The CSS breakpoint at which the table mutation should occur</li>
+          </ul>
+        </li>
+      </ol>
+      <pre>
+&lt;script src="js/responsive-table.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var dataTable = new ResponsiveTable('#data-table', 'list', '50em');
+&lt;/script&gt;
+      </pre>
+    </main>
+    <footer>
+      <h2>Links</h2>
+      <ul>
+        <li>
+          <a href="https://twitter.com/svinkle">
+            Made with
+            <span role="img" aria-label="love">♥</span>
+            by @svinkle
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/svinkle/responsive-table">
+            Source on GitHub
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

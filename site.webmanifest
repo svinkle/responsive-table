@@ -1,0 +1,14 @@
+{
+  "short_name": "Responsive Table",
+  "name": "Responsive Table",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#222222",
+  "theme_color": "#222222"
+}
