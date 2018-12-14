@@ -1,5 +1,5 @@
 /**
- * Responsive Table
+ * responsive-table.js
  *
  * Responsive Table is a tasty JavaScript library which helps format data tables on small
  screens! It does so by reordering items in the DOM while keeping HTML markup

@@ -1,0 +1,44 @@
+/**
+  * responsive-table.css
+  *
+  * CSS styles to accompany responsive-table.js
+  *
+  * Repository URL: https://github.com/svinkle/responsive-table
+  *
+  * @author: Scott Vinkle <scott.vinkle@shopify.com>
+  * @version: 0.4.1
+  */
+
+.responsive-table__wrapper {
+  margin-bottom: 3em;
+  overflow-x: auto;
+  position: relative;
+}
+
+.responsive-table {
+  width: 100%;
+}
+
+.responsive-table__header-content {
+  font-weight: 700;
+}
+
+.responsive-table--small-screen tbody th,
+.responsive-table--small-screen tbody td {
+  clear: left;
+  float: left;
+  width: 100%;
+}
+
+.responsive-table--stack.responsive-table--small-screen tr td:last-child {
+  margin-bottom: 2em;
+}
+
+.responsive-table__window-link {
+  float: right;
+  padding: .5em;
+}
+
+.responsive-table__window-link-icon {
+  fill: #222;
+}

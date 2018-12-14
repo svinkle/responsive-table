@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Scott Vinkle -- Lead developer -- @svinkle
 
 # THANKS
 
-    <name>
+    @beep
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS, HTML, JavaScript
+    Apache Server Configs, Normalize.css
