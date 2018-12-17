@@ -31,7 +31,7 @@ The **first parameter** is the unique `id` of the `table`. This `id` needs to be
 The **second parameter** determines the "flavour":
 
 - List: Generates a link list above the `table` using the row headers as the link text. Only the associated `table` row is visible while the others remain hidden!
-- Stack: Displays each row of content atop one another, like a stack of blocks!
+- Stack: Displays each row of content atop one another, like a stack of pancakes!
 - Window: The `table` remains as-is with a horizontal scroll available. A link to open the `table` in a new, full-width window appears at the desired breakpoint.
 
 The **third parameter** is the desired break point for when the `table` should change from the full width layout to the small screen layout. This parameter is optional. If left out, the break point will be set to the natural width of the table, and change when appropriate.
