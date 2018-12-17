@@ -14,13 +14,13 @@ valid and assistive technology friendly!
 
 1. Include the `responsive-table.js` library in your code base:
 
-```
+```html
 <script src="javascripts/responsive-table.js"></script>
 ```
 
 2. Create a new `ResponsiveTable()` object and set the parameters:
 
-```
+```html
 <script>
     var myTable = new ResponsiveTable('#my-table', 'list', '600px');
 </script>
