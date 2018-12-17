@@ -22,7 +22,7 @@ valid and assistive technology friendly!
 
 ```html
 <script>
-    var myTable = new ResponsiveTable('#my-table', 'list', '600px');
+  var myTable = new ResponsiveTable('#my-table', 'list', '600px');
 </script>
 ```
 
