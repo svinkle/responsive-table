@@ -77,3 +77,7 @@ It is recommended to wrap the `table` within a `<div class="responsive-table__wr
 ## Demo
 
 Try it out here! https://svinkle.github.io/responsive-table/
+
+## License
+
+This project and its source code is licensed under the [MIT](LICENSE.txt) license.
